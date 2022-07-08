@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>学生首页</title>
+    <div th:replace="include/bootstrap :: bootstrap"></div>
+</head>
+<body style="background-color: #85C1E9 ;background-size: cover;background-image: url(/img/logo_bg.jpg)">
+<div th:replace="include/bootstrap :: StudentNav"></div>
+<div class="jumbotron" style="height: 630px;padding-top: 100px; padding-bottom: 0px; margin-bottom: 0px;background-image: url(/img/logo_bg.jpg);background-size: cover;">
+    <div style="padding-left: 20px;color: #0f6c8d;">
+
+        <h2 align="center">
+            学生在线考试准则
+        </h2>
+
+        <p align="center">
+            <strong>
+            我宣誓本次参考，<br/>
+            本人诚信参与考试，<br/>
+            自觉遵守考试准则，<br/>
+            考试成绩真实有效，<br/>
+            考试期间无作弊行为。</strong>
+        </p>
+
+
+    </div>
+</div>
+
+</body>
+</html>
